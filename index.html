@@ -1,0 +1,418 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Suraj Kandoi</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link href="css/owl.carousel.css" rel="stylesheet">
+    	<link rel="icon" href="logo.png">
+
+		 <meta name="description" content="Hi, I am Suraj Kandoi, a web developer based in New Delhi, India. This website is the online impression of my portfolio and work.I am also into competitve programming">
+    	<meta name="keywords" content="Suraj Kandoi, freelancer, front-end, front end web designer, freelance web designer, coder, programmer, competitive coding,new delhi, algorithms, data structures, mait, maharaja agrasen institute of technology, icpc">
+    	
+ 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"> -->
+		
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript" src='js/owl.carousel.js'></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+			<div class="wrapper">
+				<div id="home" class="header">
+					<div class="container">
+				<!-- top-hedader -->
+						<div class="top-header">
+							<div class="top-nav">
+								<!-- <div class="nav-icon"></div> -->
+					    		<a href="#" class="right_bt" id="activator"><span></span> </a>
+							</div>
+						 <div class="box" id="box">
+							 	<div class="box_content">        					                         
+									<div class="box_content_center">
+								 		<div class="form_content">
+								 			<a class="nav-logo" href="#"><font color="white" >SK Profile</font></a>
+											<div class="menu_box_list">
+												<ul>
+													<li><a href="#home" class="scroll"><span>home</span></a></li>
+													<li><a href="#about" class="scroll"><span>About Me</span></a></li>
+													<li><a href="#resumes" class="scroll"><span>Resume</span></a></li>
+													<li><a href="#Technology" class="scroll"><span>Skills</span></a></li>
+													<li><a href="#contact" class="scroll"><span>Contact Me</span></a></li>
+													<div class="clear"> </div>
+												</ul>
+											</div>
+											<a class="boxclose" id="boxclose"> <span> </span></a>
+										</div>                                  
+									</div> 	
+								</div> 
+							</div>       	  
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+				
+					<div class="welcome-note">
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                	<div class="note">
+											<h1>I'm <span>Suraj Kandoi</span> <p>A <span>Web Developer and </span><span>Programmer</span></p></h1>
+										</div>
+					                </div>
+					                 <div class="item">
+					                	<div class="note">
+											<h1>22! student!<span> learner! </span> <p> always into self exploration!</p></h1>
+										</div>
+					                </div>
+				              </div>
+					</div>
+					<div class="top-grids">
+						<div class="col-md-2 col-sm-3 col-xs-5  top-grid text-center ">
+							<span class="icon1"> </span>
+							<h3>.UI/UX Design</h3>
+						</div>
+						<div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2  top-grid text-center">
+							<span class="icon3"> </span>
+							<h3>.Creative Idea</h3>
+						</div>
+						<div class="col-md-2 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-4 top-grid text-center">
+							<span class="icon4"> </span>
+							<h3>.Responsive</h3>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<script>
+						$(document).ready(function() 
+						{
+		   		      		$("#owl-demo").owlCarousel({
+								items : 1,
+								lazyLoad : false,
+								autoPlay : true,
+								navigation : false,
+						        navigationText :  false,
+						        pagination : true,
+ 				  	        });
+						});
+					</script>
+				</div>
+				
+			<div id="about" class="about">
+				<div class="about-left">
+					                	<div class="about-left-grid">
+											<h2>Hi! I'm <span>Suraj!</span></h2>
+											<p>I am 22 years old residing in New Delhi. I am a professional <strong>Web developer</strong> with strong interest in<strong> Data Structure.</strong>Currently, I am pursuing a Bachelor's degree from Maharaja Agrasen Institute of Technology in Delhi. 
+											<br>
+											In my free time, i love Surfing internet. I find that whenever I surfing internet ,i can know about this world more and know what happens to my surroundings.Also i am a <strong> coins collector</strong>.
+											<br>
+											This is my <strong>personal website</strong> that helps showcase my recent works. Hope you enjoy going through my website.
+											</p>
+											<ul>
+												<li><a class="a-btn-h scroll" href="#contact">Contact Me</a></li>
+											</ul>
+										</div>
+				</div>
+				<div class="about-right">
+					<img align="center" height="300px" width="300px" src="images/skrazy.jpg">
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+						<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			<div class="feedback">
+				<div class='feedbackwrapper'>
+					<h4 class="feedheader" align="center">Motivation Wall</h4>
+				<div class="container">
+					<div id="owl-demo3" class="owl-carousel owl-carousel1">
+					     <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"Have the courage to follow your <strong>heart</strong> and <strong>intuition.</strong>They somehow know know what you truely want to become."</p>
+								<h4>Steve Jobs</h4>
+							</div>
+					     </div>
+					     <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"Life is inherently <strong>risky</strong> There is only one big risk you should avoid at all costs, and that is the risk of doing nothing"</p>
+								<h4>Denis Waitley</h4>
+							</div>
+					     </div>
+					     <div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"You don't <strong>learn</strong> to walk by following rules.You learn by doing,and by <strong>falling over</strong>."</p>
+								<h4>Sir Richard Branson</h4>
+							</div>
+					     </div>
+					 	<div class="item">
+					     	<div class="feedback-grid text-center">
+								<p>"Happiness is not <strong>reaching</strong> your goal.Happiness is <strong>being</strong> on the way"</p>
+								<h4>Ingvar Kamprad </h4>
+							</div>
+					     </div>
+
+					 </div>
+				</div>
+				</div>
+			<!-- Feedback -->
+			</div>
+
+			
+			<!-- resumes -->
+			<div id="resumes" class="resumes">
+				<div class="container">
+					<div class="resume-head text-center">
+						<h3>MY <span>RESUME</span></h3>
+						<p align="center">If you call failures experiments, you can put them in your resume and claim them as achievements.</p>
+					</div>
+					<h4>Education</h3>
+					<span class="divider"></span>
+
+					<!-- resumes-grids -->
+					<div class="resumes-grids">
+						<div class="col-md-6 resumes-grid">
+							<div class="resumes-grid-icon">
+								<span class="s-icon1"> </span>
+							</div>
+							<div class="resumes-grid-info">
+								<h4>Maharaja Agrasen Institute of Technology,Delhi</h4> 
+								<p><strong>Bachelor In Technology (2013 - 2017)</strong><br>One more year to go, before getting graduated as an CSE Engineer from this top college affiliated to Gurur Gobind Singh Indraprastha University.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+							<div class="col-md-6 resumes-grid">
+								<div class="resumes-grid-icon">
+									<span class="s-icon2"> </span>
+								</div>
+								<div class="resumes-grid-info">
+									<h4>Bhatnagar International School,Delhi</h4>
+									<p><strong>Senior Secondary and Secondary Schooling (2002 - 2013)</strong><br>One of the most renowned schools of the city,this institute really helped in realise my potentials.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+					<h4>Work Exprience</h3>
+					<span class="divider"></span>
+					<div class="work-exp col-md-10 col-md-offset-1">
+ 						<div class="row1">
+      						<div class="content">
+        						<h5>STEP 1.</h5><h5>(Free Consultancy)</h5>
+        						<p>(Jun 2015 - sept 2015)<br>Good level of practice with different difficult level of Programs. Great insight of recursive concepts and data structures.</p>
+        						<strong>Project Developed => Othello (Reversi) Game in Java Language</strong>
+      						</div>
+      					<div class="imageholder"> <a target="_blank" href="http://codingblocks.com/"><img class="image"  src="images/crux.jpg"></a></div>
+    					<div class="empty"></div>
+   					 </div>
+     				<div class="row1">
+      						<div class="content">
+        						<h5>Elixir(Coding Blocks)</h5>
+        						<p>(Jan 2016 - May 2016)<br>Mobile Responsive website design with Html5, Css (Materialize framework), JS, JQuery and AJAX. Good insight of Python Scripts and Django Framework.</p>
+       							<strong>Project Developed => 2048Game, Timer, Templates, API Integration and MinQuora with Django.</strong>
+      						</div>
+      						<div class="imageholder" > <a target="_blank" href="http://codingblocks.com/"><img class="image"  src="images/e.jpg"> </a></div>
+    						<div class="empty">
+      						</div>
+    					</div>
+     					
+     					<div class="row1">
+     						 <div class="content">
+        						<h5>The Testament</h5>
+        						<p> (Jun 2016 - Present)<br>I serve The Testament by developing web application based products for businesses and consumers.</p>
+         						<strong>Project Developed => Market Acquire Dashboard</strong>
+      						</div>
+      						<div class="imageholder" >  <a target="_blank" href="http://www.thetestament.com/"><img class="image"  src="images/MA.png"></a></div>
+    						<div class="empty"></div>
+    					</div>
+    					<div>
+      						<div class="continuestory " >
+      						<div class="imageholder image story"><br><strong>Work Continue ...</strong></div></div>
+    						
+    					</div>	
+					</div>
+				</div>
+			</div>
+
+
+			<div class="tech-wrapper">
+			<div id="Technology" class="technology">
+				<div class="container1">
+					<h1 >SKILLS</h1>
+					<h3>Some awesome Skills I've acquired to accomplish my goals.</h3>
+					<div id="owl-demo2" class="owl-carousel">
+						<div class="item">
+					      	<div class="tech-logo">
+								<img src="images/angular.png" title="name" />   
+							</div>      	
+					     </div>
+					     <div class="item">
+					      	<div class="tech-logo">
+								<img src="images/aws.png" title="name" />    
+							</div>      	
+					     </div>
+					     <div class="item">
+					      	<div class="tech-logo">
+								<img src="images/jquery.png" title="name" />   
+							</div>      	
+					      </div>   
+						<div class="item">
+					      	<div class="tech-logo">
+								<img src="images/html.png" title="name" />    
+							</div>      	
+					      </div>
+					      <div class="item">
+					      	<div class="tech-logo">
+								<img src="images/django.png" title="name"/>    
+							</div>      	
+					      </div>
+					      <div class="item">
+					      	<div class="tech-logo">
+								<img src="images/node-js.png" title="name" />    
+							</div>      	
+					      </div>
+					      <div class="item">
+					      	<div class="tech-logo">
+								<img src="images/bootstrap.png" title="name" />    
+							</div>      	
+					      </div>
+					      <div class="item">
+					      	<div class="tech-logo">
+								<img src="images/java.png" title="name" />    
+							</div>      	
+					      </div>
+					      <div class="item">
+					      	<div class="tech-logo">
+								<img src="images/css.png" title="name" />    
+							</div>      	
+					      </div>
+					</div>
+					<br>
+					<br>					
+				</div>
+			</div>
+			</div>
+			<div class="clearfix"> </div>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo2").owlCarousel({
+						items : 4,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : true,
+						navigationText :  true,
+						pagination : false,
+					});
+				});
+			</script>
+
+			
+			<!-- contact -->
+			<div id="contact" class="contact">
+				<div class="container">
+					<div class="contact-head text-center">
+						<h3>Contact <span>Me!</span></h3>
+						<p>Just send me a message I will help you and make you smile</p>
+					</div>
+					<!-- contact-grids -->
+					<div class="contact-grids">
+						<div class="col-md-4 contact-left">
+							<ul>
+								<li><a class="facebook" target="_blank" href="https://www.facebook.com/surajkandoi"><span class="social"> </span></a></li>
+								<li><a class="twitter" target="_blank" href="https://twitter.com/skandoi26"><span class="social"> </span></a></li>
+								<li><a class="Instragram" target="_blank" href="https://www.instagram.com/s02k/"><span class="social"> </span></a></li>
+								<li><a class="pin" target="_blank" href="https://in.pinterest.com/surajkandoi/"><span class="pininterest"> </span></a></li>
+							</ul>
+						</div>
+						<div class="col-md-8 contact-right">
+							<form>
+								<div class="text-boxs">
+									<div class="text-box">
+										<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+									</div>
+									<div class="text-box">
+										<input type="text" value="Last name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last name';}">
+									</div>
+									<div class="text-box">
+										<input type="text" value="Your Email here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email here';}">
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="subject">
+									<textarea placeholder="Your Message......."></textarea>
+									<input type="submit" value="" />
+								</div>
+							</form>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="container">
+					<p align="center">© 2016 Suraj Kandoi. All rights reserved.</p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			</div>
+	</body>
+</html>
+
